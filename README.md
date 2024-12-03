@@ -116,4 +116,3 @@
 <h2>Conclusion</h2>
 <p>In this lab, I successfully configured advanced DNS settings in an Active Directory environment using Azure Virtual Machines. I created A-records and CNAME records, managed DNS settings, and handled local DNS cache. These skills are vital for network management and security operations in real-world IT environments.</p>
 
-<p><strong>Note:</strong> I made sure not to delete the VMs in Azure, as they will be used in future labs. Instead, I simply <strong>stopped</strong> the VMs within the Azure Portal to save costs.</p>
