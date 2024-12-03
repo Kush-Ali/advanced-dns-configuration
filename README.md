@@ -15,7 +15,7 @@
   <li>Then, I connected to <strong>Client-1</strong> using the same domain admin account: <strong>mydomain\pablo_davis</strong>.</li>
 </ul>
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/ff70b911-dbd4-4cd3-b0e1-10b98bc89874" alt="A-Record Configuration Image" width="80%">
+  <img src="https://github.com/user-attachments/assets/ff70b911-dbd4-4cd3-b0e1-10b98bc89874" alt="A-Record Configuration Image" img width="1440"">
 </p>
 
 
@@ -25,11 +25,11 @@
   <li>I then ran <strong>nslookup mainframe</strong> on <strong>Client-1</strong>, which confirmed the absence of a DNS record for the hostname.</li>
 </ul>
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/99335e79-0606-4b16-8479-0e07960b571e" alt="Testing DNS Image" width="80%">
+  <img src="https://github.com/user-attachments/assets/99335e79-0606-4b16-8479-0e07960b571e" alt="Testing DNS Image" img width="1440"">
 </p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/de201f62-48f2-485d-b894-8afc88b7d75e" alt="Testing DNS Image" width="80%">
+  <img src="https://github.com/user-attachments/assets/de201f62-48f2-485d-b894-8afc88b7d75e" alt="Testing DNS Image" img width="1440"">
 </p>
 
 
@@ -43,12 +43,12 @@
 </ul>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/c9f0a5b2-3ffb-499c-8dee-bf65ec9fb12d" alt="Create A-Record Image" width="80%">
+  <img src="https://github.com/user-attachments/assets/c9f0a5b2-3ffb-499c-8dee-bf65ec9fb12d" alt="Create A-Record Image" img width="1440"">
 </p>
 
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/a775bca6-2c61-4289-918a-4e2ab78dce96" alt="Create A-Record Image" width="80%">
+  <img src="https://github.com/user-attachments/assets/a775bca6-2c61-4289-918a-4e2ab78dce96" alt="Create A-Record Image" img width="1440"">
 </p>
 
 
@@ -61,11 +61,11 @@
   <li>Back on <strong>Client-1</strong>, I pinged <strong>"mainframe"</strong> again and observed that it still pinged the old address, as the local DNS cache had not yet updated.</li>
 </ul>
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/8c3dd24a-7a7b-4a2b-b1aa-b15acd0692c3" alt="Modify DNS Record Image" width="80%">
+  <img src="https://github.com/user-attachments/assets/8c3dd24a-7a7b-4a2b-b1aa-b15acd0692c3" alt="Modify DNS Record Image" img width="1440"">
 </p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/7b8c5c49-511d-4699-8e98-91afc45b06d5" alt="Modify DNS Record Image" width="80%">
+  <img src="https://github.com/user-attachments/assets/7b8c5c49-511d-4699-8e98-91afc45b06d5" alt="Modify DNS Record Image" img width="1440"">
 </p>
 
 
@@ -79,15 +79,15 @@
   <li>After confirming that the cache was empty by running <strong>ipconfig /displaydns</strong> again, I attempted to ping <strong>"mainframe"</strong> once more and observed that the ping resolved to the new address <strong>8.8.8.8</strong>.</li>
 </ul>
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/98601bf3-e0dc-4514-b4cf-e009d3d16461" alt="Local DNS Cache Image" width="80%">
+  <img src="https://github.com/user-attachments/assets/98601bf3-e0dc-4514-b4cf-e009d3d16461" alt="Local DNS Cache Image" img width="1440"">
 </p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/0b29eda8-e701-4cd0-8868-57d836708da2" alt="Local DNS Cache Image" width="80%">
+  <img src="https://github.com/user-attachments/assets/0b29eda8-e701-4cd0-8868-57d836708da2" alt="Local DNS Cache Image" img width="1440"">
 </p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/ae5dca38-9666-44de-bcfd-950a072361b2" alt="Local DNS Cache Image" width="80%">
+  <img src="https://github.com/user-attachments/assets/ae5dca38-9666-44de-bcfd-950a072361b2" alt="Local DNS Cache Image" img width="1440"">
 </p>
 
 
@@ -102,11 +102,11 @@
   <li>Finally, I ran <strong>nslookup search</strong> on <strong>Client-1</strong> to confirm the results of the CNAME record configuration.</li>
 </ul>
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/c62fc50e-4eb7-48d5-b4ca-4435c17ca08a" alt="CNAME Record Configuration Image" width="80%">
+  <img src="https://github.com/user-attachments/assets/c62fc50e-4eb7-48d5-b4ca-4435c17ca08a" alt="CNAME Record Configuration Image" img width="1440"">
 </p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/41cb6e07-a172-466b-9fa8-22a7667f3eb4" alt="CNAME Record Configuration Image" width="80%">
+  <img src="https://github.com/user-attachments/assets/41cb6e07-a172-466b-9fa8-22a7667f3eb4" alt="CNAME Record Configuration Image" img width="1440"">
 </p>
 
 
